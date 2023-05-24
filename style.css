@@ -1,0 +1,60 @@
+/* .spin i{
+animation: spin 1s infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+main span, aside span{
+    color: blueviolet;
+}
+
+aside {
+    grid-template: form;
+}
+aside h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 6.4rem;
+    font-weight: 500;
+
+}
+
+main {
+    grid-template: hero;
+    border: .1rem solid #00000015;
+    
+}
+main h2{
+    max-width: 43rem;
+    font-size: 3.6rem;
+}
+
+img{
+    width: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-areas:
+        ". . . . ."
+        ". hero . form ."
+        ". . . . ."
+    ;
+    gap: 8.5rem;
+}

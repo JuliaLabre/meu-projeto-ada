@@ -1,0 +1,20 @@
+*{
+    background-color: antiquewhite;
+}
+
+.contador{
+    text-align: center;
+}
+
+button{
+    padding: 6px;
+    margin: 3px;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+li{
+    margin: 3px;
+}
